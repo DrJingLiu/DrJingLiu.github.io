@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - master
-      - main
+      - source
   pull_request:
     branches:
       - master
@@ -38,8 +38,8 @@ jobs:
         echo "::set-output name=DEPLOY_BRANCH::gh-pages"
     - name: Fix permission
       run: |
-          chmod a+x bin/*
-          git commit -am "addd execute permission to bin/deploy"
+        chmod a+x bin/*
+        git commit -am "addd execute permission to bin/deploy"
     - name: Deploy website 
       run:  yes | bash bin/deploy --verbose ${{ steps.setup.outputs.NO_PUSH }}
                     --src ${{ steps.setup.outputs.SRC_BRANCH }} 
