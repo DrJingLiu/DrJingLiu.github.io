@@ -1,6 +1,9 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
+"JHR":
+  url: http://jhr.uwpress.org/
   color: "#00369f"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"J. Public Econ.":
+  url: https://www.sciencedirect.com/journal/journal-of-public-economics
+
+"ACL 2021":
+  url: https://aclanthology.org/
