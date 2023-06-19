@@ -60,5 +60,8 @@ An example Bibtex entry looks like this
 
 
 # News / Announcements
-- Turn it on `_pages/about.md`, news.
-- Where to write: `_news`.
+- Turn it on `_pages/about.md`, news (already turned on).
+- Where to write: `_news`, following the format of template markdown files in `_page_not_used/news/`.
+  - When `inline: true`, news shows whole content
+  - When `inline: false`, news shows the title on the main page and a link to a separate page (`announcement_2.md`)
+- Adjust number of news to show: `news_limit` in `_config.yml`.
