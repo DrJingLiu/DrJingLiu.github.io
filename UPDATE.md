@@ -1,5 +1,10 @@
 # Tips for updating website
 
+## Prerequisite on MacOS
+
+Following the instructions from [here](https://gist.github.com/MichaelCurrin/61053a564bdb3098bae11f949bab3578) (Step 1-3) 
+and then the main README (Local Setup Standard).
+
 ## CV
 
 - Path: pdf file goes to `assets/pdf`
