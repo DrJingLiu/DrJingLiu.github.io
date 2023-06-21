@@ -1,5 +1,6 @@
 # Tips for updating website
-
+bundle install
+bundle exec jekyll serve
 ## Prerequisite on MacOS
 
 Following the instructions from [here](https://gist.github.com/MichaelCurrin/61053a564bdb3098bae11f949bab3578) (Step 1-3) 
